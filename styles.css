@@ -1,0 +1,36 @@
+ul {
+    list-style: radial-gradient();
+}
+
+
+li:hover {
+    background-color: royalblue;
+    cursor: -moz-zoom-out
+}
+li:hover {
+    background-color: rgb(154, 160, 167);
+    font-style: italic;
+}
+
+li:active {
+    background-color: rgb(111, 237, 111);
+    font-size: 50px;
+}
+
+li::before {
+    content: "😼";
+}
+
+li:hover::after {
+    content: "Pick me! Pick me!!";
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+li:active::after {
+    content: "Yay!!!"
+}
+
+li:active::before {
+    content: "🐝";
+}
