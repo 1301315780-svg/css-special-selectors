@@ -10,6 +10,17 @@
 .card div {
     font-size: 80px;
 }
+.card::before {
+    content: "SALE";
+    background-color: rgb(255, 0, 51);
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+}
+
+.card a{
+    color: brown;
+}
 
 /* Add your CSS styles below this line */
 
